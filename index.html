@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GptAssistantRobotAutonomous</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h3>Autonomous robot powered with GPT</h3>
+        <div class="spinner">
+            <div class="spinner1" ></div>
+        </div>
+        <div class="sensor-data">
+            <div class="temperature">
+                <i class="fas fa-thermometer-half"></i>
+                <span class="label">Temperature</span>
+                <span class="value" id="temperature">--</span>
+                <sup class="units">&deg;C</sup>
+            </div>
+            <div class="humidity in the soil">
+                <i class="fas fa-tint"></i>
+                <span class="label">Humidity in the soil</span>
+                <span class="value" id="humidity">--</span>
+                <sup class="units">%</sup>
+            </div>
+            <div class="humidity in the air">
+                <i class="fas fa-tint"></i>
+                <span class="label">Humidity in the air</span>
+                <span class="value" id="humidity">--</span>
+                <sup class="units">%</sup>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
